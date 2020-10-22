@@ -1,0 +1,22 @@
+body {
+    padding-top: 20px;
+    font: 1rem/1.5 var(--font-family-sans-serif);
+}
+
+#myCarousel .nav a small {
+    display: block;
+}
+
+#myCarousel .nav {
+    background: #eee;
+}
+
+#myCarousel .nav a {
+    border-radius: 0px;
+}
+
+
+h1,
+h2 {
+    color: rgb(224, 189, 31);
+}

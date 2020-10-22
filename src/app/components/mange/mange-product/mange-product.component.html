@@ -1,0 +1,192 @@
+<button (click)=" gotoAdd()" type="button" class="btn btn-primary" style="display: block;">הוסף מוצר</button>
+
+<div class="border border-primary" *ngFor="let prod of Products">
+
+  <p class="text-center"> מקט:{{prod.prductID}} </p>
+  <p class="text-center"> שם:{{prod.productName}} </p>
+  <p class="text-center"> תאור:{{prod.productDescription}} </p>
+  <p class="text-center"> קטגוריה:{{prod.categoryID}} </p>
+  <p class="text-center"> צבע:{{prod.color}} </p>
+  <p class="text-center"> משקל:{{prod.weight}} </p>
+  <p class="text-center"> חומר:{{prod.material}} </p>
+  <p class="text-center"> מחיר: {{prod.price}} </p>
+  <p class="text-center"> מס'קטלוגי: {{prod.catNumber}} </p>
+  <p class="text-center"> קוטר מוצר: {{prod.productDiameter}} </p>
+  <p class="text-center"> גובה מוצר: {{prod.productHeight}} </p>
+  <p class="text-center"> קוטר צוואר: {{prod.neckDiameter}} </p>
+  <p class="text-center"> גימור: {{prod.neckfinish}} </p>
+  <img src={{prod.imag}}>
+  <button (click)=" deleteproduct($event)" type="button" id="{{prod.prductID}}" class="btn btn-primary">מחק</button>
+  <button (click)=" editProduct(prod)" type="button" class="btn btn-primary">ערוך</button>
+
+
+
+</div>
+
+
+
+
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+
+  <div *ngIf="editStutos" class="form-group">
+    <label for="PD">prductID:</label>
+    <input type="text" class="form-control" formControlName="prductID" id="prductID" autocomplete="off"
+      placeholder={{currentProduct.prductID}} value={{currentProduct.prductID}}>
+  </div>
+
+  <div class="form-group">
+    <label for="PN">productName:</label>
+    <input *ngIf="!editStutos" type="text" class="form-control" formControlName="productName" id="productName"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="text" class="form-control" formControlName="productName" id="productName"
+      autocomplete="off" placeholder={{currentProduct.productName}} value={{currentProduct.productName}}>
+    <div class="error"
+      *ngIf="addForm.controls['productName'].hasError('required') && addForm.controls['productName'].touched">
+      productName is required</div>
+  </div>
+
+
+  <div *ngIf="!editStutos" class="form-group">
+    <label for="PD">productDescription:</label>
+    <input *ngIf="!editStutos" type="text" class="form-control" formControlName="productDescription"
+      id="productDescription" autocomplete="off">
+    <input *ngIf="editStutos" type="text" class="form-control" formControlName="productDescription"
+      id="productDescription" autocomplete="off" placeholder={{currentProduct.productDescription}}>
+    <div class="error"
+      *ngIf="addForm.controls['productDescription'].hasError('required') && addForm.controls['productDescription'].touched">
+      productDescription is required</div>
+  </div>
+
+
+
+  <div *ngIf="!editStutos" class="form-group">
+    <label for="CI">categoryID:</label>
+    <input list="categoryID" class="form-control" formControlName="categoryID" autocomplete="off">
+    <datalist id="categoryID">
+      <option *ngFor="let cat of Categorys" value={{cat.categoryID}}>
+      </option>
+    </datalist>
+    <div class="error"
+      *ngIf="addForm.controls['categoryID'].hasError('required') && addForm.controls['categoryID'].touched">categoryID
+      is required</div>
+  </div>
+
+  <div *ngIf="editStutos" class="form-group">
+    <label for="CI">categoryID:</label>
+    <input list="categoryID" class="form-control" formControlName="categoryID" autocomplete="off"
+      placeholder={{currentProduct.categoryID}} value={{currentProduct.categoryID}}>
+    <datalist id="categoryID">
+      <option *ngFor="let cat of Categorys" value={{cat.categoryID}}>
+      </option>
+    </datalist>
+  </div>
+
+  <div class="form-group"> <label for="color">color:</label>
+    <input *ngIf="!editStutos" type="text" class="form-control" formControlName="color" id="color" autocomplete="off">
+    <input *ngIf="editStutos" type="text" class="form-control" formControlName="color" id="color" autocomplete="off"
+      placeholder={{currentProduct.color}} value={{currentProduct.color}}>
+    <div class="error" *ngIf="addForm.controls['color'].hasError('required') && addForm.controls['color'].touched">color
+      is required</div>
+  </div>
+
+
+  <div class="form-group"> <label for="price">price:</label>
+    <input *ngIf="!editStutos" type="number" class="form-control" formControlName="price" id="price" autocomplete="off">
+    <input *ngIf="editStutos" type="number" class="form-control" formControlName="price" id="price" autocomplete="off"
+      placeholder={{currentProduct.price}} value={{currentProduct.price}}>
+    <div class="error" *ngIf="addForm.controls['price'].hasError('required') && addForm.controls['price'].touched">price
+      is required</div>
+  </div>
+
+
+  <div class="form-group">
+    <label for="weight">weight:</label>
+    <input *ngIf="!editStutos" type="text" class="form-control" formControlName="weight" id="weight" autocomplete="off">
+    <input *ngIf="editStutos" type="text" class="form-control" formControlName="weight" id="weight" autocomplete="off"
+      placeholder={{currentProduct.weight}} value={{currentProduct.weight}}>
+    <div class="error" *ngIf="addForm.controls['weight'].hasError('required') && addForm.controls['weight'].touched">
+      weight is required</div>
+  </div>
+
+
+
+
+  <div class="form-group">
+    <label for="Material">Material:</label>
+    <input *ngIf="!editStutos" type="text" class="form-control" formControlName="material" id="material"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="text" class="form-control" formControlName="material" id="material"
+      autocomplete="off" placeholder={{currentProduct.material}} value={{currentProduct.material}}>
+  </div>
+
+
+
+
+
+  <div class="form-group">
+    <label for="Neckfinish">Neckfinish:</label>
+    <input *ngIf="!editStutos" type="number" class="form-control" formControlName="neckfinish" id="neckfinish"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="number" class="form-control" formControlName="neckfinish" id="neckfinish"
+      autocomplete="off" placeholder={{currentProduct.neckfinish}} value={{currentProduct.neckfinish}}>
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="CatNumber">CatNumber:</label>
+    <input *ngIf="!editStutos" type="number" class="form-control" formControlName="catNumber" id="catNumber"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="number" class="form-control" formControlName="catNumber" id="catNumberE"
+      autocomplete="off" placeholder={{currentProduct.catNumber}} value={{currentProduct.catNumber}}>
+  </div>
+
+
+  <div class="form-group">
+    <label for="PD">productDiameter:</label>
+    <input *ngIf="!editStutos" type="number" class="form-control" formControlName="productDiameter" id="productDiameter"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="number" class="form-control" formControlName="productDiameter" id="productDiameter"
+      autocomplete="off" placeholder={{currentProduct.productDiameter}} value={{currentProduct.productDiameter}}>
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="PH">productHeight:</label>
+    <input *ngIf="!editStutos" type="number" class="form-control" formControlName="productHeight" id="productHeight"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="number" class="form-control" formControlName="productHeight" id="productHeight"
+      autocomplete="off" placeholder={{currentProduct.productHeight}} value={{currentProduct.productHeight}}>
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="ND">neckDiameter:</label>
+    <input *ngIf="!editStutos" type="number" class="form-control" formControlName="neckDiameter" id="neckDiameter"
+      autocomplete="off">
+    <input *ngIf="editStutos" type="number" class="form-control" formControlName="neckDiameter" id="neckDiameter"
+      autocomplete="off" placeholder={{currentProduct.neckDiameter}} value={{currentProduct.neckDiameter}}>
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="IM">imag:</label>
+    <input *ngIf="!editStutos" type="text" class="form-control" formControlName="imag" id="imag" autocomplete="off">
+    <input *ngIf="editStutos" type="text" class="form-control" formControlName="imag" id="imag" autocomplete="off"
+      placeholder={{currentProduct.imag}} value={{currentProduct.imag}}>
+  </div>
+
+
+
+  <button *ngIf="!editStutos" class="btn btn-success" [disabled]="addForm.invalid">הוסף מוצר</button>
+  <button *ngIf="editStutos" class="btn btn-success" >ערוך מוצר</button>
+
+
+  <div *ngIf="invalidLogin" class="error">
+    <div>Invalid credentials.</div>
+  </div>
+
+  <button (click)=" gotoMain()" type="button" class="btn btn-primary" style="display: block;">חזור לראש הדף</button>

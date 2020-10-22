@@ -1,0 +1,17 @@
+<div [ngClass]="{'container2': showBasket,'container1': !showBasket}">
+
+  <app-header (txtToPrFromHeader)="DataFromChild($event)"></app-header>
+
+  <app-nav [showGoogleNav]="txtFrmPrnt"></app-nav>
+
+  <app-main (eventFromProduct)="eventFromProduct($event)">
+
+   <router-outlet (eventFromProduct)="eventFromProduct($event)"></router-outlet>
+
+  </app-main>
+
+  <app-aside *ngIf="showBasket"></app-aside>
+
+  <app-footer></app-footer>
+
+</div>

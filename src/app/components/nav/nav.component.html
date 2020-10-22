@@ -1,0 +1,35 @@
+<nav>
+
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" routerLink='home'>בית</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink='product'>מוצרים</a>
+    </li>
+    <!-- <li class="nav-item">
+          <a class="nav-link" routerLink='basket'>סל הזמנות</a>
+        </li> -->
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink='userLogin'>התחברות</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink='regist'>הרשמה</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink='order'>הזמנות שלי</a>
+    </li>
+    <li *ngIf="showGoogleNav" class="nav-item">
+      <a style="color:rgb(222, 245, 13);" class="nav-link" routerLink='mp'>מוצרים</a>
+    </li>
+    <li *ngIf="showGoogleNav" class="nav-item">
+      <a style="color:rgb(222, 245, 13);" class="nav-link" routerLink='mangeorder'>הזמנות</a>
+    </li>
+    <li *ngIf="showGoogleNav" class="nav-item">
+      <a style="color:rgb(222, 245, 13);" class="nav-link" routerLink='mangeuser'>משתמשים</a>
+    </li>
+
+
+  </ul>
+</nav>

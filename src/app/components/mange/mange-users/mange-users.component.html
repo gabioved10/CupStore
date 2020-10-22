@@ -1,0 +1,23 @@
+<h2>משתמשים רשומים</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">userID</th>
+            <th>userName</th>
+            <th>email</th>
+            <th>address</th>
+            <th>phone</th>
+        </tr>
+    </thead>
+
+    <tr *ngFor="let user of users">
+        <td> {{user.id}}</td>
+        <td>{{user.userName}}</td>
+        <td>{{user.userEmail}} </td>
+        <td>{{user.address}} </td>
+        <td> {{user.phone}} </td>
+        <button>מחק</button>
+
+
+    </tr>
+</table>

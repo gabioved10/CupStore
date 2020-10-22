@@ -1,0 +1,14 @@
+<header (eventToheader)="eventFromHeader($event)">
+  <div>
+    <p class="text-left" *ngIf="userId"><button *ngIf="userId" (click)="logOut()" type="button" id="LogOut"
+        class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button> שלום: {{username}} ({{userId}})</p>
+    <button type="button" class="btn btn-secondary btn-sm" (click)="loglogin()" type="button" id="GoogleConnection">
+      חיבור לגוגל</button>
+    <button (click)="GooglelogOut()" type="button" id="LogOutGoogle" class="close" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+</header>

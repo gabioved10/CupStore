@@ -1,0 +1,28 @@
+
+<select (change)="sortProduct($event.target.value)">
+  <option value="prductID">Sort By ID</option>
+  <option value="price">Sort By Price</option>
+  <option value="categoryID">Sort By Category</option>
+  <option value="weight">Sort By weight</option>
+</select>
+
+
+<div style ="border-radius:5% ; background-color: rgb(205, 245, 245); border: 5%; " class="container-fluid text-center" class="border border-primary" *ngFor="let prod of Products">
+ 
+  <p class="text-center"><b style="font-size: large;"> שם:{{prod.productName}}</b> </p>
+  <p class="text-center"> <b>מקט:</b>{{prod.prductID}} </p>
+  
+  <p class="overflow"  > <span> {{prod.productDescription}}</span><b>תיאור:</b> </p>
+  <p class="text-center"> <b>קטגוריה:</b>{{getCategory(prod.categoryID)}} </p>
+  <p class="text-center"><b>צבע:</b> {{prod.color}} </p>
+  <p class="text-center"> <b>מחיר:</b>{{prod.price}} </p>
+  <p class="text-center"> <b>משקל:</b>{{prod.weight}} </p>
+  <p class="text-center"> <b>מס'קטלוגי:</b> {{prod.catNumber}} </p>
+  <p class="text-center"> <b>קוטר מוצר:</b> {{prod.productDiameter}} </p>
+  <p class="text-center"> <b>גובה מוצר: </b>{{prod.productHeight}} </p>
+  <p class="text-center"> <b>קוטר צוואר:</b> {{prod.neckDiameter}} </p>
+  <p class="text-center"> <b>גימור:</b> {{prod.neckfinish}} </p>
+  <img src={{prod.imag}}>
+  <button (click)="saveOrderLocal(prod)" type="button" class="btn btn-primary">הוסף לסל</button>
+
+</div>

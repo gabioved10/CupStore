@@ -1,0 +1,30 @@
+<div class="body">
+  <h1>טופס הזמנה</h1>
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()" class="Container">
+
+    <div class="form-group">
+      <label for="fullName">shiping:</label>
+      <input type="checkbox" class="form-control" formControlName="shiping" id="shiping" autocomplete="off">
+      <div class="error"
+        *ngIf="addForm.controls['shiping'].hasError('required') && addForm.controls['shiping'].touched">shiping is
+        required</div>
+    </div>
+
+    <div class="form-group">
+      <label for="fullName">blessing:</label>
+      <input type="text" class="form-control" formControlName="blessing" id="blessing" autocomplete="off">
+      <div class="error"
+        *ngIf="addForm.controls['blessing'].hasError('required') && addForm.controls['blessing'].touched">blessing is
+        required</div>
+    </div>
+
+    <div class="form-group">comment
+      <label for="fullName">string:</label>
+      <input type="text" class="form-control" formControlName="comment" id="comment" autocomplete="off">
+      <div class="error"
+        *ngIf="addForm.controls['comment'].hasError('required') && addForm.controls['comment'].touched">comment is
+        required</div>
+    </div>
+    <button class="btn btn-success" [disabled]="addForm.invalid">ADD ORDER</button>
+  </form>
+</div>

@@ -1,0 +1,23 @@
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin: auto;
+  display: block;
+
+}
+
+button {
+  margin-top: 4%;
+  display: inline-block;
+  margin-left: 41%;
+  padding-top: 5px;
+}
+
+.subMenu {
+  width: 300px;
+  display: inline-block;
+  direction: rtl;
+  margin-right: 100px;
+}

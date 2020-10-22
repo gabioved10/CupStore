@@ -1,0 +1,73 @@
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.deps.json
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.json
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.dev.json
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csprojAssemblyReference.cache
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csproj.CoreCompileInputs.cache
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cache
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cs
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfoInputs.cache
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfo.cs
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorTargetAssemblyInfo.cache
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Cupserver2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.deps.json
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.json
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.dev.json
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csprojAssemblyReference.cache
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csproj.CoreCompileInputs.cache
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cache
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cs
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfoInputs.cache
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfo.cs
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorTargetAssemblyInfo.cache
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Cupserver2 -BackUp\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.deps.json
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.json
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.dev.json
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csprojAssemblyReference.cache
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csproj.CoreCompileInputs.cache
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cache
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cs
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfoInputs.cache
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfo.cs
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorTargetAssemblyInfo.cache
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Cupserver3\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.deps.json
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.json
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.dev.json
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csprojAssemblyReference.cache
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csproj.CoreCompileInputs.cache
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cache
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfoInputs.cache
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorTargetAssemblyInfo.cache
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Store_V2\Capstroe2\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.deps.json
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.json
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.runtimeconfig.dev.json
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\bin\Debug\netcoreapp2.1\Capstroe2.pdb
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csprojAssemblyReference.cache
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.csproj.CoreCompileInputs.cache
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cache
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorAssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfoInputs.cache
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.AssemblyInfo.cs
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.RazorTargetAssemblyInfo.cache
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.dll
+D:\Gabi\AngularProject2\Store_V2\CapstroeServer\Capstroe2\obj\Debug\netcoreapp2.1\Capstroe2.pdb

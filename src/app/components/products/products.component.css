@@ -1,0 +1,65 @@
+div {
+  height: 750px;
+  width: 27%;
+  margin: 50px;
+  display: inline-block;
+
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin: auto;
+  display: block;
+}
+
+button {
+  margin-top: 4%;
+  display: inline-block;
+  margin-left: 41%;
+  padding-top: 5px;
+}
+
+.text-center {
+  text-align: center !important;
+  direction: rtl;
+ 
+}
+
+.overflow {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-align: center !important;
+}
+
+select {
+  display: inline-block;
+  position: absolute;
+}
+
+label {
+
+  display: inline-block;
+  position: absolute;
+}
+#border{
+  border-radius: 4% !important;
+  border-style:groove !important ;
+  background-color: black !important;
+}
+
+
+@media (max-width: 991px) {
+  div {
+    height: 750px;
+    width: 70%;
+    margin: 20px;
+    display: inline-block;
+  
+  }
+
+}

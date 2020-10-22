@@ -1,0 +1,24 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">orderID</th>
+            <th scope="col">shiping</th>
+            <th scope="col">price</th>
+            <th scope="col">blessing</th>
+            <th scope="col">status</th>
+            <th scope="col">comment</th>
+            <th scope="col">UserId</th>
+        </tr>
+    </thead>
+
+    <tr *ngFor="let order of orders">
+        <td>{{order.orderID}}</td>
+        <td>{{order.shiping}}</td>
+        <td>{{order.price}}</td>
+        <td>{{order.blessing}}</td>
+        <td>{{order.status}}</td>
+        <td>{{order.comment}}</td>
+        <td>{{order.userId}}</td>
+
+    </tr>
+</table>

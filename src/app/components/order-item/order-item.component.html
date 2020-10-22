@@ -1,0 +1,16 @@
+<div class="item">
+
+    <button (click)="closeDetail()" type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div *ngFor="let order of orderItem">
+        <p class="text-justify">product: {{order.productId}}</p>
+        <p class="text-justify">productName: {{order.productName}}</p>
+        <p class="text-justify">price: {{order.price}}</p>
+        <P class="text-justify">Quntity:{{order.quantity}}</P>
+        <hr />
+        <!-- <p>Price:{{order.price}}</p> -->
+    </div>
+
+
+</div>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cupsstore10": {
+      "hosting": {
+        "store": [
+          "cupsstore10"
+        ]
+      }
+    }
+  }
+}

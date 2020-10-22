@@ -1,0 +1,22 @@
+<div class="container-fluid" class="border border-primary" id="block" *ngFor="let prod of Products">
+
+    <p class="text-center"> מקט:{{prod.prductID}} </p>
+    <p class="text-center"> שם:{{prod.productName}} </p>
+    <p class="text-center"> מחיר: {{prod.price}} </p>
+    <p class="text-center"> כמות</p>
+    <p class="text-center"><button (click)="reducQuntity(prod)" type="button" class="btn btn-primary"> - </button>
+        {{prod.quntity}}
+        <button (click)="increaseQuntity(prod)" type="button" class="btn btn-primary"> + </button>
+    </p>
+
+    <img src={{prod.imag}}>
+    <br>
+
+    <button (click)="DeleteOrderLocal(prod)" type="button" class="btn btn-primary"><i class='fas fa-trash-alt'
+            style='font-size:16px'> מחק מהסל</i></button>
+</div>
+<div id="footer">
+    <button (click)="DeleteAllOrderLocal()" type="button" class="btn btn-primary"><i class='fas fa-trash-alt'
+            style='font-size:18px'></i> רוקן סל</button>
+    <button (click)="saveOrder()" type="button" class="btn btn-primary"> צור הזמנה</button>
+</div>
